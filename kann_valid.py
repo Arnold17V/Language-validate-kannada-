@@ -14,6 +14,6 @@ myString = u(input())
 wordsList = myString.split()
 for eachWord in wordsList:
   if KannOrNot(eachWord):
-    NLProject()    
+    prediction() 
   else:
     print("Error! Try to enter only words in the Kannada dialect")
